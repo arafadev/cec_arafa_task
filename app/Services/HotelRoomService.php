@@ -49,7 +49,7 @@ class HotelRoomService
         return [
             'hotel_name' => $hotelName,
             'room_code' => $roomCode,
-            'price' => $price
+            'price' => (float) $price
         ];
     }
 

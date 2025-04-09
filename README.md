@@ -18,6 +18,7 @@ cec-arafa-task/
 │   ├── app.php
 │── public/
 │   ├── index.php
+│   ├── rooms.html
 │── tests/
     ├── Integration/
 │   │   ├── HotelRoomServiceTest.php
@@ -49,7 +50,7 @@ cec-arafa-task/
    ```
 2. Access the API:
    ```sh
-    http://localhost:8000/
+    http://localhost:8000/rooms.html
    ```
 3. The API will return a JSON response with the sorted and filtered rooms.
 
