@@ -1,5 +1,4 @@
 <?php
-
 use App\Services\HotelRoomService;
 use App\Factories\AdvertiserFactory;
 use GuzzleHttp\Client;
